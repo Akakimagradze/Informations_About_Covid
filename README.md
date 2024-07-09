@@ -1,12 +1,30 @@
-Project Name: Informations_About_Covid
-
-Overview:
-  This repository contains a SQL database with detailed information on COVID-19. The database is designed to store, manage, and query data related to COVID-19 cases, vaccinations, testing, and other relevant   information.
-
-Contents:
-  Covid_Information.sql: The main SQL file containing the database schema and initial data.
-
-Features:
-  1) Comprehensive Schema: The database includes tables for storing data on cases, recoveries, deaths, testing, vaccinations, and more.
-  2) Easy to Query: The schema is designed to facilitate efficient querying of COVID-19 data for analysis and reporting.
-  3) Extensible: Easily extend the schema to include additional data or integrate with other databases.
+# Data which i used for this project:
+    1. CovidVaccinations.xlsx
+    2. CovidDeaths.xlsx
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Project Purpose
+    The purpose of this project is to provide insights into the impact
+    of COVID-19 across different regions and time periods. 
+    The analysis includes:
+      * Total and new cases and deaths.
+      * Death rates.
+      * Infection rates.
+      * Vaccination rates.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Informations i was looking for:
+    1. death rate in Georgia from February 26, 2020, to April 30, 2021.
+    2. percentage of the population infected with COVID-19 in the world.
+    3. countries with the highest infection rates compared to their population.
+    4. total number of deaths in each country, caused by COVID-19.
+    5. total number of deaths in each continent, caused by COVID-19.
+    6. global totals for infected cases, deaths, and the death percentage.
+    7. total number of vaccinated people globally.
+    8. total number of vaccinated people by location and date.
+    9. percentage of the population that is vaccinated.
+    10. percentage of vaccinated people by location and date.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Setup Instructions:
+    1. Ensure you have a SQL Server instance running.
+    2.Create the CovidDeaths and CovidVaccinations tables in your database.
+    3. Insert the relevant COVID-19 data into these tables.
+    4. Run the provided SQL queries to analyze the data.
